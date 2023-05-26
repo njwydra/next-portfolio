@@ -11,6 +11,7 @@ export default function Home() {
         <h1>
           Nick Wydra
         </h1>
+        <h2>Software Engineer | Chicago, IL</h2>
         <a href='mailto:njwydra@gmail.com'>njwydra@gmail.com</a>
       </div>
     </main>

@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100dvh;
-  font-family: Noto Sans Japanese, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: Lato, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .circles {
@@ -48,7 +48,13 @@
   z-index: 2;
   padding: 50px 80px;
 
-  background: rgba(255, 255, 255, 0.3);
+
+  /* background: linear-gradient(to bottom right, transparent, #f2f7f2), url(./bg.svg); */
+  background: url(./bg.svg);
+  background-color: #f2f7f2;
+  filter: contrast(100%) brightness(125%);  
+
+  /* background: rgba(255, 255, 255, 0.3); */
   border-radius: 1em;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.7px);
@@ -58,8 +64,18 @@
 }
 
 .description h1 {
+  font-size: 1.75rem;
   margin: 0.5rem;
   font-family: Nanum Myeongjo, serif;
+}
+
+.description h2 {
+  margin: 0.25rem;
+}
+
+.description :not(h1) {
+  font-size: 0.8rem;
+  font-weight: lighter;
 }
 
 @media (prefers-reduced-motion) {

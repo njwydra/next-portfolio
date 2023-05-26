@@ -21,9 +21,9 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo"></link>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Japanese"></link>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"></link>
       </head>
-      <body className={inter.className} style={{margin: 0}}>{children}</body>
+      <body className={inter.className} style={{ margin: 0 }}>{children}</body>
     </html>
   )
 }
