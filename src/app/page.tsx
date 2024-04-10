@@ -9,13 +9,13 @@ export default function Home() {
       <p className={styles.city}>Chicago, IL</p>
       <div className={styles.links}>
         <a href="https://linkedin.com/in/nick-wydra" target="_blank">
-          <img height={24} width={24} src="/linkedin.svg" alt="Email" />
+          <img src="/linkedin.svg" alt="Email" />
         </a>
         <a href="https://github.com/njwydra" target="_blank">
-          <img height={24} width={24} src="/github.svg" alt="Email" />
+          <img src="/github.svg" alt="Email" />
         </a>
         <a href="mailto:njwydra@gmail.com">
-          <img height={24} width={24} src="/mail.svg" alt="Email" />
+          <img src="/mail.svg" alt="Email" />
         </a>
       </div>
       <div className={styles.colorBar}></div>
