@@ -80,7 +80,14 @@
 /* Mobile */
 @media (max-width: 700px) {
   .description {
+    width: 320px;
+    height: 178px;
+
     font-size: 0.8rem;
+  }
+
+  .colorBar {
+    width: 280px;
   }
 }
 
