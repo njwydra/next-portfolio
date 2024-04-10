@@ -1,0 +1,19 @@
+body {
+  height: 100dvh;
+  width: 100dvw;
+  box-sizing: border-box;
+
+  background-color: #f2f7f2;
+
+  border: 10px solid #8e5572;
+}
+
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Avenir Book", Arial, sans-serif;
+}
